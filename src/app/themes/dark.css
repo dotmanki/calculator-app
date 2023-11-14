@@ -1,0 +1,19 @@
+html[data-theme='dark'] {
+  /* backgrounds */
+  --color-bg-main: hsl(268, 75%, 9%);
+  --color-bg-toggle: hsl(268, 71%, 12%);
+  --color-bg-screen: hsl(268, 71%, 12%);
+  /* keys */
+  --color-primary-key-bg: hsl(281, 89%, 26%);
+  --color-primary-key-shadow: hsl(285, 91%, 52%);
+  --color-secondary-key-toggle: hsl(176, 100%, 44%);
+  --color-secondary-key-shadow: hsl(177, 92%, 70%);
+  --color-accent-key-bg: hsl(268, 47%, 21%);
+  --color-accent-key-shadow: hsl(290, 70%, 36%);
+  /* text */
+  --color-primary-text: hsl(52, 100%, 62%);
+  --color-key-text: hsl(52, 100%, 62%);
+  --color-key-accent-text: hsl(198, 20%, 13%);
+
+  --translate-toggle: 2.5rem;
+}

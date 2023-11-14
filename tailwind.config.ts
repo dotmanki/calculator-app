@@ -8,10 +8,30 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        //backgrounds
+        'ground-main': 'var(--color-bg-main)',
+        'ground-toggle': 'var(--color-bg-toggle)',
+        'ground-screen': 'var(--color-bg-screen)',
+        //keys
+        'primary-key-bg': 'var(--color-primary-key-bg)',
+        'primary-key-shadow': 'var(--color-primary-key-shadow)',
+        'secondary-key-toggle': 'var(--color-secondary-key-toggle)',
+        'secondary-key-shadow': 'var(--color-secondary-key-shadow)',
+        'accent-key-bg': 'var(--color-accent-key-bg)',
+        'accent-key-shadow': 'var(--color-accent-key-shadow)',
+        //text
+        'primary-text': 'var(--color-primary-text)',
+        'secondary-text': 'var(--color-secondary-text)',
+        'key-text': 'var(--color-key-text)',
+        'key-secondary-text': 'var(--color-key-secodary-text)',
+        'key-accent-text': 'var(--color-key-accent-text)',
+      },
+      translate: {
+        toggle: 'var(--translate-toggle)',
+      },
+      boxShadow: {
+        key: '0 4px 0 var(--color-accent-key-shadow)',
       },
     },
   },

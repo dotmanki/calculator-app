@@ -1,0 +1,20 @@
+html[data-theme='light'] {
+  /* backgrounds */
+  --color-bg-main: hsl(0, 0%, 90%);
+  --color-bg-toggle: hsl(0, 5%, 81%);
+  --color-bg-screen: hsl(0, 0%, 93%);
+  /* keys */
+  --color-primary-key-bg: hsl(185, 42%, 37%);
+  --color-primary-key-shadow: hsl(185, 58%, 25%);
+  --color-secondary-key-toggle: hsl(25, 98%, 40%);
+  --color-secondary-key-shadow: hsl(25, 99%, 27%);
+  --color-accent-key-bg: hsl(45, 7%, 89%);
+  --color-accent-key-shadow: hsl(35, 11%, 61%);
+  /* text */
+  --color-primary-text: hsl(60, 10%, 19%);
+  --color-secondary-text: hsl(0, 0%, 100%);
+  --color-key-text: hsl(60, 10%, 19%);
+  --color-key-accent-text: hsl(0, 0%, 100%);
+
+  --translate-toggle: 1.25rem;
+}
